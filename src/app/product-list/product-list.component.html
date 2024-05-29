@@ -1,0 +1,25 @@
+<h2>Bikes</h2>
+
+<div *ngFor="let bike of bikes">
+    <a [title]="bike.title + ' details'">
+        <h3>{{ bike.title }}</h3>
+    </a>
+    <p *ngIf="bike.status">
+        status: {{ bike.status }}
+    </p>
+    <p *ngIf="bike.description">
+        Description: {{ bike.description }}
+    </p>
+    <button type="button" (click)="share()">
+        Share
+    </button>
+
+    <!-- <app-product-alert  [product]="product" (notify)="onNotify()"></app-product-alert> -->
+</div>
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
