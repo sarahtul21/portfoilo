@@ -1,25 +1,25 @@
 {
-  "hash": "f409702d",
-  "configHash": "c805a5d3",
+  "hash": "b7d81ca9",
+  "configHash": "6ee21893",
   "lockfileHash": "6957182c",
-  "browserHash": "a7156815",
+  "browserHash": "778570b4",
   "optimized": {
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "267a2182",
+      "fileHash": "e1585f46",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "c3f735dc",
+      "fileHash": "6c858b9b",
       "needsInterop": false
     },
     "flowbite": {
       "src": "../../../../../node_modules/flowbite/lib/esm/index.js",
       "file": "flowbite.js",
-      "fileHash": "7198b854",
+      "fileHash": "ff55c758",
       "needsInterop": false
     }
   },
